@@ -125,10 +125,10 @@ describe('Parser', () => {
     const outPut = [
       {
         pid: 0,
-        lpSymbol: 'CAKE',
-        lpAddresses: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+        lpSymbol: 'MXL',
+        lpAddresses: '0x534751de71b6378515fff29cfa1dac9f7679162b',
         tokenSymbol: 'SYRUP',
-        tokenAddresses: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+        tokenAddresses: '0x534751de71b6378515fff29cfa1dac9f7679162b',
         quoteTokenSymbol: 'BNB',
         quoteTokenAdresses: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
         multiplier: 1,

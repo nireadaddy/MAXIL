@@ -19,14 +19,6 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
         label: t('Liquidity'),
         href: 'https://exchange.pancakeswap.finance/#/pool',
       },
-      {
-        label: t('LP Migration'),
-        href: 'https://v1exchange.pancakeswap.finance/#/migrate',
-      },
-      {
-        label: t('V1 Liquidity (Old)'),
-        href: 'https://v1exchange.pancakeswap.finance/#/pool',
-      },
     ],
   },
   {
@@ -38,26 +30,6 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     label: t('Pools'),
     icon: 'PoolIcon',
     href: '/pools',
-  },
-  {
-    label: t('Prediction (BETA)'),
-    icon: 'PredictionsIcon',
-    href: '/prediction',
-  },
-  {
-    label: t('Lottery'),
-    icon: 'TicketIcon',
-    href: '/lottery',
-  },
-  {
-    label: t('Collectibles'),
-    icon: 'NftIcon',
-    href: '/collectibles',
-  },
-  {
-    label: t('Team Battle'),
-    icon: 'TeamBattleIcon',
-    href: '/competition',
   },
   {
     label: t('Teams & Profile'),
