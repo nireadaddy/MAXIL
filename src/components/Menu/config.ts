@@ -27,29 +27,6 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     href: '/farms',
   },
   {
-    label: t('Pools'),
-    icon: 'PoolIcon',
-    href: '/pools',
-  },
-  {
-    label: t('Teams & Profile'),
-    icon: 'GroupsIcon',
-    items: [
-      {
-        label: t('Leaderboard'),
-        href: '/teams',
-      },
-      {
-        label: t('Task Center'),
-        href: '/profile/tasks',
-      },
-      {
-        label: t('Your Profile'),
-        href: '/profile',
-      },
-    ],
-  },
-  {
     label: t('Info'),
     icon: 'InfoIcon',
     items: [
@@ -85,24 +62,12 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
         href: 'https://docs.pancakeswap.finance/contact-us',
       },
       {
-        label: t('Voting'),
-        href: 'https://voting.pancakeswap.finance',
-      },
-      {
         label: t('Github'),
         href: 'https://github.com/pancakeswap',
       },
       {
         label: t('Docs'),
         href: 'https://docs.pancakeswap.finance',
-      },
-      {
-        label: t('Blog'),
-        href: 'https://pancakeswap.medium.com',
-      },
-      {
-        label: t('Merch'),
-        href: 'https://pancakeswap.creator-spring.com/',
       },
     ],
   },
